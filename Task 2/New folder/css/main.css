@@ -29,20 +29,23 @@ margin: auto;
 }
 .flex-container{
     display: flex;
-    padding-top: 30px;
+    padding-top: 30px ;
 }
 .video
 .text{
     width: 50%;
     height: 100px;
    
+   
 }
 .flex-img{
     width: 100%;
-    box-shadow: 10px 10px 10px;
+    
+   
 }
 .text {
     text-align: center;
+    
 }
 .para{
     text-align: left;
@@ -55,7 +58,21 @@ margin: auto;
 }
 .icon1, .icon2
 {
-    width: 20%;
+     width: 20%;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: rgb(24, 47, 68);
+    float: left;
+    width: 72px;
+    height: 72px;
+    background: #f1f7fb;
+    border-radius: 6px;
+    transition: 0.5s;
+    
     
 }
 .text1, .text2
@@ -114,38 +131,50 @@ margin: auto;
     margin: 5px;
 }
 
-.flex-service{
+
+.service{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}.service-list{
     display: flex;
     flex-wrap: wrap;
-   
-  
-
 }
-.flex-servicebox1 
+.service-list .service-box
 {
     width: 33.33%;
+      
 }
+.allign-ser{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.service-info{
+    margin: 15px;
+}
+.service-info
 .service-icon{
     
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100%;
-    background-color: #fff;
-    box-shadow: 0 0 15px rgb(182, 146, 146);
     width: 60px;
     height: 60px;
-    text-align: center;
-    margin:2px;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgb(182, 146, 146);
+   text-align: center;
+    margin: 0 auto 25px;
 }
 
-.service-desc{
- 
-  
-    background-color: rgb(226, 150, 150);
-    box-shadow: 0 10 15px rgb(182, 146, 146);
-    height: 60px;
+.service-icon{
+    font-size: 30px;
+    color: rgb(24, 47, 68);
+}
+.service-text h4{
     text-align: center;
-    border: 2px;
-    margin: 2px;
+   
+}
+.service-text{
+    text-align: center;
 }

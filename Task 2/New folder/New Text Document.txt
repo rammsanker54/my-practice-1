@@ -1,0 +1,65 @@
+.service-icon{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgb(182, 146, 146);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin:2px;
+}<h1>service</h1>            
+            <div class="flex-service">    
+                        
+                <div class="flex-servicebox1">                   
+                
+                    <div class="service-icon">
+                        <i class="icofont-ui-messaging"></i>
+                     <div class="service-desc">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Voluptatum deleniti atque corrupti  quos dolores et <br>quas molestias excepturi sint occaecati cupiditate <br> non provident</p>
+                     </div>
+                 </div>
+                <div class="flex-servicebox1">
+                
+                    <div class="service-icon"><h1>icon</h1></div>
+                    <div class="service-desc">
+                        <h1>title</h1>
+                        <p>paragraph</p>
+                    </div>
+                </div>
+                <div class="flex-servicebox1">
+                
+                    <div class="service-icon"><h1>icon</h1></div>
+                    <div class="service-desc">
+                        <h1>title</h1>
+                        <p>paragraph</p>
+                    </div>
+                </div>
+                <div class="flex-servicebox1">
+                
+                    <div class="service-icon"><h1>icon</h1></div>
+                    <div class="service-desc">
+                        <h1>title</h1>
+                        <p>paragraph</p>
+                    </div>
+                </div>
+                <div class="flex-servicebox1">
+                
+                    <div class="service-icon"><h1>icon</h1></div>
+                    <div class="service-desc">
+                        <h1>title</h1>
+                        <p>paragraph</p>
+                    </div>
+                </div>
+                <div class="flex-servicebox1">
+                
+                    <div class="service-icon"><h1>icon</h1></div>
+                    <div class="service-desc">
+                        <h1>title</h1>
+                        <p>paragraph</p>
+                    </div>
+                </div>
+               
+            </div>
