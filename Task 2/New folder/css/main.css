@@ -7,13 +7,20 @@ margin: auto;
     display: flex;
     justify-content: space-between;
 }
+.intend{
+    text-indent: 10px;
+}
 .flexbox-menu{
     display: flex;
     justify-content: space-between;
   
 }
+.title{
+    color: rgb(27, 119, 240);
+    font-size: 26;
+}
 .email, .mobile, .social-connect{
-    width: 100%;
+    width: auto;
     display: flex;
    
     
@@ -89,13 +96,16 @@ margin: auto;
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
+ 
 }
 .facility1{
     width: 33.33%;
     padding: 10px 20px;
-    border: solid 0px  rgb(182, 146, 146);
-    border-top: 0px;
-    border-left: 0px;
+    border: solid 2px  rgb(182, 146, 146);
+    border-top: 1px solid rgb(182, 146, 146);
+    
+   
+    
    
 
 }
