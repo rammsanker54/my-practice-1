@@ -14,6 +14,7 @@ margin: auto;
 }
 .email, .mobile, .social-connect{
     width: 100%;
+    display: flex;
    
     
 }
@@ -30,6 +31,7 @@ margin: auto;
 .flex-container{
     display: flex;
     padding-top: 30px ;
+ 
 }
 .video
 .text{
@@ -64,13 +66,14 @@ margin: auto;
     align-items: center;
     width: 60px;
     height: 60px;
+    line-height: 10px;
     font-size: 30px;
     color: rgb(24, 47, 68);
-    float: left;
-    width: 72px;
-    height: 72px;
+    width: 70px;
+    height: 70px;
     background: #f1f7fb;
     border-radius: 6px;
+    margin: auto;
     transition: 0.5s;
     
     
@@ -90,7 +93,7 @@ margin: auto;
 .facility1{
     width: 33.33%;
     padding: 10px 20px;
-    border: solid 1px  rgb(182, 146, 146);
+    border: solid 0px  rgb(182, 146, 146);
     border-top: 0px;
     border-left: 0px;
    
