@@ -1,0 +1,35 @@
+.shadow{
+    width: 250px;
+    padding: 10px;
+    box-shadow:-10px -5px blue  ;
+    opacity: calc(01);
+}
+.shadow-length{
+    width: 250px;
+    padding: 10px;
+    box-shadow:20px 10px 5px rgb(233, 31, 125)  ;
+    opacity: calc(1);   
+}
+.shadow-inside{
+    width: 250px;
+    padding: 10px;
+    box-shadow: inset  15px 10px 20px rgb(27, 231, 214)  ;   
+}
+.shadow-invert{
+    width: 250px;
+    padding: 10px;
+    box-shadow: inset  -25px 10px 20px rgb(27, 231, 214)  ;   
+}
+.text-shadow{
+    text-shadow: 10px 5px hotpink;
+}
+.filter{
+ filter: blur(2px);   
+}
+.greyscale  {
+    filter: grayscale(75%);
+}
+.bright{
+    filter: brightness(200%);
+    filter: hue-rotate(90deg);
+}

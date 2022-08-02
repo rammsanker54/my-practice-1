@@ -23,6 +23,7 @@ margin: auto;
     width: auto;
     display: flex;
    
+   
     
 }
 .background{
@@ -190,4 +191,156 @@ margin: auto;
 }
 .service-text{
     text-align: center;
+}
+.port-container{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.portfolio{
+    background: rgb(145, 231, 234);
+}
+.portfolio-image{
+    padding-top: 30px;
+    padding-left: 20px;
+    
+    position: relative;
+    width: 30.33%;    
+    overflow: hidden;  
+   
+}
+.portfolio-img{
+    width: 100%;
+    overflow: hidden;
+    
+    
+   
+}
+.port-img{
+    display: block;
+    width: 100%;
+    height: auto;
+   }
+.portfolio-img:hover img
+{
+    transform: scale(1.1);
+}
+.portfolio-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;   
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    
+}
+.portfolio-text h4{
+    color: rgb(164, 236, 238);
+    font-size: 20px;
+
+}
+.portfolio-text p{
+    color: #fff;
+    font-size: 20px;
+
+}
+.portfolio-image{
+    transform: translateY(-20px);
+    transition: all 0.7s ease;   
+    opacity: 1; 
+}
+.portfolio-image:hover .portfolio-text{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.portfolio-icon a {
+    
+    color: #a8cff0;
+    margin: 0 4px;
+    line-height: 0;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+   
+}
+.portfolio-icon:hover i {
+    transition: all 0.6s ease ;  
+}
+.our-team{
+    padding-top: 50px;
+    overflow: hidden;
+}
+.team-container{
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.flex-team{
+    width: 25%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin-right:15px ;
+   
+   
+    
+}
+.flex-team:hover img{
+    transition: all 0.5s ease ;
+    transform: scale(1.1);
+}
+
+
+.team-box1 img{
+    width: 100%;
+    height: auto;
+    padding-right: 0;
+    margin: auto;
+    
+}
+.team-text {
+    position: absolute;
+    top: 155px;
+    line-height: 5px;
+    bottom: 1px;
+    color:white;
+    margin-left: 25px;
+    background-color: rgba(0,0 ,0,0.75);
+    width: 80%;
+    height: 175px;
+    text-align: center;
+    border-radius: 5px;
+   
+}
+.h-line{
+    width: 120px;
+    padding-left: 50px;
+    align-items: center;
+}
+.team-social  {
+   font-size: 20px;
+   padding-top: 15px;
+    
+   
+   
+}
+.team-social a{
+    text-decoration: none;
+    color: #09d9f0;
+}
+.team-social:hover a{
+    transition: all 0.5s ease;
+    color: azure;
+  
 }
