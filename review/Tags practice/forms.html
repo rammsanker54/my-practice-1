@@ -1,35 +1,48 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <head>
-     
-    </head>
+
     <body>
-        <h1 style="color:rgb(117, 166, 185)">general form</h1>
-        <form action="mailto:rajaranjithkumar17@gmail.com">
-        <fieldset>
-            <legend>personal</legend>
+        <h1 style="color:rgb(2, 181, 252)">general form</h1>
+       
+        <form action="mailto:rajaranjithkumar17@gmail.com" target="_blank" novalidate>     
+          
+            <fieldset>
+             <legend>personal</legend>
             <lable  for="fname">Full name:</lable><br>
             <input type="text" id="fname" name="fname" value=""><br>
-            <label for="nname">Nick name:</label><br>
-            <input type="text" id="nname" name="nname" value=""><br> 
-            <p style="color:rgb(70, 13, 230)">gender</p>           
+         <!--text used for single line text-->
+            <input type="text" id="nname" name="nname" value="" placeholder="last name"><br> 
+            <p style="color:rgb(70, 13, 230)">gender</p>
+            <!--radio used for for selecting one of many choices-->
            <input type="radio" id="male" name="gender" value="male">
             <label for="male">male</label>
+
             <input type="radio" id="female" name="gender" value="female">
-            <label for="female">female</label><br>
+            <label for="female">female</label><br>  
+         <!-- check box used for  selecting zero or more of many choices-->
             <p style="color:red">intrest</p>
             <input type="checkbox" id="intrest3" name="intrest3" value="kabadi">
             <label for="intrest">gambling</label><br>
+
             <input type="checkbox" id="intrest" name="intrest" value="gambling">
             <label for="intrest2">cricket</label><br>
+
             <input type="checkbox" id="intrest 2" name="intrest2" value="cricket">
             <label for="intrest3">kabadi</label><br>
+
             <input type="checkbox" id="intrest3" name="intrest3" value="kabadi">
             <label for="intrest4">football</label><br>
+
             <label for="types of books">which type of books you love:</label><br>
+            <!-- select used for defines a drop-down list-->
             <select id="books" name="genre">
                 <optgroup label="book">
+                    <!--option used for to define a pre-selected option-->
                 <option value="love story">love story</option>
                 <option value="novels">novels</option>
                 <option value="short stories">short stories</option>
@@ -37,29 +50,33 @@
                 <option value="fantacy">fantacy</option>
                 </optgroup>
             </select><br>
-            <textarea name="write something" rows="10" cols="15"> for more info</textarea><br>            
+            <!-- textarea used for multiline input-->
+            <textarea name="write something" rows="10" cols="15"> for more info</textarea><br>  
+            <!-- define clickable button-->          
             <button type="button" onclick="hello">click here</button><br>
-            <label for="user name">username :</label>
-            <input type="text"></input><br>
+            <!--vaildations email -->
+            <label for="email">Enter mail:</label>
+            <!--disable used for avoid fill user data-->
+            <input type="email" id="email" name="email" disabled> <br>
+            <label for="user name" >username :</label>
+            <input type="text" id="name" name="name" required ></input><br>
+            <!-- hide letters-->
             <label for="password">password :</label>
-            <input type="password" id="pwd" name="pwd" ></input><br>
+            <input type="password" id="pwd" name="pwd"  required></input><br>
+            <!--apply date min or max-->
             <label for="datemin">Enter your dob</label>
-            <input type="date" id="datemin" name="datenin" min="1998-01-01"><br>
+            <input type="date" id="datemin" name="datenin" min="1998-01-01" ><br>
+            <!-- for add files-->
             <label for="my pics">add pic</label>
             <input type="file" id="myfile" name="myfile"></input><br>
-            <label for="disk_d">percentage in sslc</label>
+
+            <label for="disk_d">percentage in sslc </label>
             <meter id="disk_d" value="0.6">70%</meter><br>
-            <input type="submit" value="Submit"><br>
-        
-           
+            <!--submit used for submit the form-->
+            <input type="submit" value="Submit"><br>   
+            <input type="reset"> 
 
-            
-        </fieldset>
-            
-    
-
-
+            </fieldset>
         </form>
-    
-    </body>
+        </body>
 </html>

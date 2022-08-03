@@ -200,9 +200,9 @@ margin: auto;
     background: rgb(145, 231, 234);
 }
 .portfolio-image{
-    padding-top: 30px;
+    padding-top: 0px;
     padding-left: 20px;
-    
+    margin-top: 30px;
     position: relative;
     width: 30.33%;    
     overflow: hidden;  
@@ -251,9 +251,11 @@ margin: auto;
     transform: translateY(-20px);
     transition: all 0.7s ease;   
     opacity: 1; 
+    overflow: hidden;
 }
 .portfolio-image:hover .portfolio-text{
     transform: translateY(0px);
+    background-color:rgba(0,0,0,0.5); 
     opacity: 1;
 }
 
@@ -273,8 +275,10 @@ margin: auto;
     text-decoration: none;
    
 }
-.portfolio-icon:hover i {
+.portfolio-icon a:hover  {
     transition: all 0.6s ease ;  
+    color: aqua;
+    background: #000;
 }
 .our-team{
     padding-top: 50px;
@@ -283,15 +287,15 @@ margin: auto;
 .team-container{
     width: 100%;
     display: flex;
-    border-radius: 5px;
+    border-radius: 15px;
     overflow: hidden;
 }
 .flex-team{
     width: 25%;
     height: auto;
     position: relative;
+    margin: 10px;
     overflow: hidden;
-    margin-right:15px ;
    
    
     
@@ -321,6 +325,7 @@ margin: auto;
     height: 175px;
     text-align: center;
     border-radius: 5px;
+    
    
 }
 .h-line{
@@ -339,8 +344,112 @@ margin: auto;
     text-decoration: none;
     color: #09d9f0;
 }
-.team-social:hover a{
+  .team-social a:hover {
     transition: all 0.5s ease;
     color: azure;
   
+}
+.frequently-qa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top:30px ;
+  
+}
+.flex-faq{
+    width: 50%;
+    height: auto;
+    text-align: left;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  }
+  .faq{
+    background-color: rgb(187, 243, 243);
+    padding-top: 25px;  
+    margin-top: 50px;
+}
+.flexbox-faq{
+    margin-left: 10px;
+}
+.flex-contactbox{
+    margin-top: 80px;
+}
+.contacu-us{
+    margin-top: 50px;
+}
+.flex-contact{
+    width: 100%;
+    display: flex;
+}
+.flex-addres{
+    width: 50%;
+    height: 200px;
+    box-shadow: 0  0 10px;
+}
+.flex-addres
+.flex-icon{
+    display: flex;
+    border-radius: 50%;  
+    width: 50px ;
+    height: 50px;
+    background-color: #d7dbdb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+  margin-top: 20px;
+    border: 2px dotted #090f15;
+    font-size: 26px;
+    color: rgb(97, 164, 239);
+}
+.contact-address{
+    text-align: center;
+    line-height: 5px
+}
+.mail-us{
+    margin-left: 20px;
+    width: 25%;
+    height: 200px;
+    box-shadow: 0  0 10px;
+}
+.mail-us
+.mail-icon{
+    display: flex;
+    border-radius: 50%;  
+    width: 50px ;
+    height: 50px;
+    background-color: #d7dbdb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+  margin-top: 20px;
+    border: 2px dotted #090f15;
+    font-size: 26px;
+    color: rgb(97, 164, 239);
+
+}
+.call-us{
+    margin-left: 20px;
+    width: 25%;
+    height: 200px;
+    box-shadow: 0  0 10px;
+}
+.call-us
+.call-icon{
+    display: flex;
+    border-radius: 50%;  
+    width: 50px ;
+    height: 50px;
+    background-color: #d7dbdb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+  margin-top: 20px;
+    border: 2px dotted #090f15;
+    font-size: 26px;
+    color: rgb(97, 164, 239);
+
 }
