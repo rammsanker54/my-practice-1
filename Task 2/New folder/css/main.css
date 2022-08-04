@@ -387,13 +387,15 @@ margin: auto;
     height: 200px;
     box-shadow: 0  0 10px;
 }
-.flex-addres
-.flex-icon{
+
+.flex-icon,
+.mail-icon,
+.call-icon{
     display: flex;
     border-radius: 50%;  
     width: 50px ;
     height: 50px;
-    background-color: #d7dbdb;
+    background-color: #f6ffff;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -401,7 +403,7 @@ margin: auto;
   margin-top: 20px;
     border: 2px dotted #090f15;
     font-size: 26px;
-    color: rgb(97, 164, 239);
+    color: rgb(5, 114, 247);
 }
 .contact-address{
     text-align: center;
@@ -413,43 +415,92 @@ margin: auto;
     height: 200px;
     box-shadow: 0  0 10px;
 }
-.mail-us
-.mail-icon{
-    display: flex;
-    border-radius: 50%;  
-    width: 50px ;
-    height: 50px;
-    background-color: #d7dbdb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto ;
-  margin-top: 20px;
-    border: 2px dotted #090f15;
-    font-size: 26px;
-    color: rgb(97, 164, 239);
 
-}
 .call-us{
     margin-left: 20px;
     width: 25%;
     height: 200px;
     box-shadow: 0  0 10px;
 }
-.call-us
-.call-icon{
+
+.forms
+{
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+}
+.form-mail{
+    height: 32px;
+    width: 50%;
+}
+
+.form-name {
+    height: 32px;
+    width: 50%;
+}
+
+
+#subject{
+    padding: 5px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.message
+{    
+    padding: 10px;
+}
+.button{
     display: flex;
+    justify-content: center;
+    border: 2px;
+    width: auto;
+}
+.button1
+{
+    padding: 10px 20px;
+
+background-color: rgb(14, 49, 243);  
+}
+.footer{
+    width: 100%;
+    background: rgb(220, 223, 223);
+   margin-top: 75px;
+   height: 300px;
+}
+.flex-footer{
+    display: flex;
+    flex: 1 0 0;
+    
+}
+.footer-icon a{
+    text-decoration: none;
+    display: flex;
+    display: inline-flex;
     border-radius: 50%;  
-    width: 50px ;
-    height: 50px;
-    background-color: #d7dbdb;
+    width: 35px ;
+    height: 35px;
+    background-color: #919e9e;
     text-align: center;
     justify-content: center;
     align-items: center;
+    line-height: 20px;
     margin: 0 auto ;
-  margin-top: 20px;
-    border: 2px dotted #090f15;
-    font-size: 26px;
-    color: rgb(97, 164, 239);
+    font-size: 20px;
+    color: rgb(5, 114, 247);
+}
+.footer-link{
+    text-decoration: none;
+}
+.newsletter{
+    width: 35%;
+    padding-left: 20px;
+}
+.a1{
+   
+    font-size: 18px;
+}
+.a2{
+    font-size: 18px;
+    background-color: #09d9f0;
 
 }
