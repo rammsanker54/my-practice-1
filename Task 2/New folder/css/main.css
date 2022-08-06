@@ -99,6 +99,9 @@ margin: auto;
     border-radius: 5px;
     padding: 10px;
 }
+.read:hover button{
+    background-color: #efefef;
+}
 
 /* about */
 .flex-container{
@@ -536,6 +539,11 @@ text-align: center;
     border: 0;
     color: #fff;
 }
+.form-button:hover button{
+    background: rgb(0, 184, 216);
+
+}
+
 /* footer */
 .footer{
     width: 100%;
