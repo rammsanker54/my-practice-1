@@ -1,0 +1,55 @@
+@media   ( min-width:400px){
+    .imag{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .phoo img{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+    }
+    .txt p{
+        width: 100%;
+        height: auto;
+        background-color: rgb(55, 231, 110);
+        font-size: 20px;
+    }
+}
+@media   ( min-width:800px){
+    .imag{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .phoo img{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+    }
+    .txt p{
+        width: 100%;
+        height: auto;
+        background-color: rgb(133, 227, 246);
+        font-size: 30px;
+    }
+}
+@media   ( min-width:1200px){
+    .imag{
+        width: 100%;
+        height: auto;
+      
+       display: inline-block;
+    }
+    .phoo img{
+        width: 50%;
+        height: auto;
+    }
+    .txt p{
+        
+        width: 50%;
+        height: auto;
+        font-size: 52px;
+        background-color: rgb(255, 157, 29);
+    }
+}
