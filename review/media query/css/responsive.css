@@ -47,9 +47,9 @@
     }
     .txt p{
         
-        width: 50%;
+        width: 100%;
         height: auto;
-        font-size: 52px;
+        font-size: 36px;
         background-color: rgb(255, 157, 29);
     }
 }
